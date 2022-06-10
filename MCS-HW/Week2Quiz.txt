@@ -1,0 +1,29 @@
+Week 2 Quiz
+
+What is a TabBarController(what are its uses)?
+- A tab bar controller is a controller that allows a user to navigate to different view controllers. 
+
+What is autoLayout?
+- Auto layout dynamically updates the screen to fit on all screen sizes.
+What is a segue?
+- A segue is a way of passing data to the next screen. 
+
+What methods are needed to build Tableviews?
+- numberOfSections(), numberOfRowsInSection(), 
+What is a closure?
+- A closure is a function without a function name
+
+Are there any protocols we must conform to to build Tableviews?
+- UITableViewDatasource protocol and UITableViewDelegate
+
+Do you prefer to build your controllers in storyboard or programmatically?
+- When I’m working alone I prefer storyboard. When I’m working with a team I prefer to do things programmatically to reduce merge conflicts. 
+
+What is a CollectionView?
+- A collection view is a object that manages data and outputs it in a collection/grid
+
+How does a UINavigationController work (what does it do)?
+- A container view controller that keeps track of the stack hierarchy  
+
+Tell me about a time you had to work to overcome a particular engineering challenge?
+- I had to fix a bug that was hard to reproduce. (GateKeeper bug) This was challenging because the bug only reproduce every 2/10 times. Also, gatekeepers aren’t created in code so this made discovering the bug challenging because we later found that the solution to this wasn’t a coding error but the way the GK was set up. 
